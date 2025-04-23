@@ -33,12 +33,30 @@ export default function Home() {
               <CardDescription>button variants</CardDescription>
             </CardHeader>
             <CardContent className="grid grid-cols-2 gap-3">
-              <Button variant={"outline"}>outline</Button>
-              <Button variant={"link"}>this is a link</Button>
-              <Button variant={"default"}>default</Button>
-              <Button variant={"secondary"}>secondary</Button>
-              <Button variant={"destructive"}>destructive</Button>
-              <Button variant={"ghost"}>ghost</Button>
+              <Button variant={"outline"} aria-label="Outline button example">
+                outline
+              </Button>
+              <Button variant={"link"} aria-label="Link button example">
+                this is a link
+              </Button>
+              <Button variant={"default"} aria-label="Default button example">
+                default
+              </Button>
+              <Button
+                variant={"secondary"}
+                aria-label="Secondary button example"
+              >
+                secondary
+              </Button>
+              <Button
+                variant={"destructive"}
+                aria-label="Destructive button example"
+              >
+                destructive
+              </Button>
+              <Button variant={"ghost"} aria-label="Ghost button example">
+                ghost
+              </Button>
             </CardContent>
           </Card>
           <Card>
@@ -47,14 +65,27 @@ export default function Home() {
               <CardDescription>button sizes</CardDescription>
             </CardHeader>
             <CardContent className="flex gap-3">
-              <Button variant={"default"} size="icon">
+              <Button variant={"default"} size="icon" aria-label="Album">
                 <Album />
               </Button>
-              <Button variant={"default"} size="sm">
+              <Button
+                variant={"default"}
+                size="sm"
+                aria-label="Small button example"
+              >
                 sm
               </Button>
-              <Button variant={"default"}>default</Button>
-              <Button variant={"default"} size="lg">
+              <Button
+                variant={"default"}
+                aria-label="Default size button example"
+              >
+                default
+              </Button>
+              <Button
+                variant={"default"}
+                size="lg"
+                aria-label="Large button example"
+              >
                 lg
               </Button>
             </CardContent>
