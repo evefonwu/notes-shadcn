@@ -16,7 +16,7 @@ export default function Home() {
         <section className="flex flex-col gap-3">
           <Card>
             <CardHeader>
-              <CardTitle>We'd love to hear from you</CardTitle>
+              <CardTitle>{`We'd love to hear from you`}</CardTitle>
               <CardDescription>
                 An accessible contact us form with client-side validations
               </CardDescription>
